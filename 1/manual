@@ -1,0 +1,138 @@
+.TH "Song Diary" "Manual" 
+
+
+											 Manual for the script
+
+Flags:
+
+
+
+-A: Add 
+
+		Compulsory flags:
+
+		-s Song Name
+
+		-a Artist
+
+		-l Album
+
+
+
+		Optional flags:
+
+		-g Genre 
+
+
+
+		Example: ./songs.sh -s "21 Guns" -a "Green Day" -l "21st Century Breakdown" -g "Rock" -A {Adds the song to the list}
+
+
+
+		**USE -A FLAG AFTER THE TAGS**
+
+
+
+
+
+
+-E: Edit 
+
+		Compulsory flag:
+
+		-i ID of the reminder
+
+
+
+		Optional flags:
+
+		-a Artist
+
+		-l Album
+
+		-g Genre 
+
+
+		Does not edit song name as that is also treated as an ID
+
+
+		**USE -E FLAG AFTER THE TAGS**
+
+
+
+		Example: ./songs.sh -i 6 -a "Pink Floyd" -E {Edits the artist of ID 6 entry}
+
+
+
+
+
+
+
+-D: Delete
+
+		Compulsory flag:
+
+		-i ID of the reminder
+
+
+
+		**USE -D FLAG AFTER THE ID TAG**
+
+
+
+		Example: ./songs.sh -i 6 {Deletes the song with ID 6}
+
+
+
+
+
+
+
+-L: List
+
+		Displays songs in a table format
+
+
+
+		Example: ./songs.sh -L
+
+
+
+
+
+-V: View selected
+
+		Can be on the basis of a particular
+
+		-a Artist
+
+		-l Album
+
+		-g Genre
+
+
+
+	Usage: ./songs.sh -a "Slash" -V {Shows details about all songs by the artist Slash}
+
+	 
+
+	**USE -V FLAG AFTER THE ID TAG**
+
+	}
+
+
+
+
+
+
+
+-h: Help
+
+
+
+
+
+		Use -h flag for help
+
+
+

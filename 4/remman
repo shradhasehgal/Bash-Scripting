@@ -1,0 +1,120 @@
+.TH "Reminder" "Manual"
+
+											Manual for the script:
+
+
+Flags:
+
+
+
+-A: Add
+
+
+
+		Compulsory flags
+
+
+		-t Time (24 hour format eg. 15:36)
+
+
+		-d Date (Format: \"Month Date\" eg. \"Jan 15\")
+
+
+		-r Reminder (Use \"\" to enter the reminder eg. \" Complete ISS Assignment \")
+
+
+		Eg: ./reminder.sh -t 17:38 -r "Complete ISS Assignment" -d "Jan 17" -A
+
+
+
+								**USE -A FLAG AFTER THE TAGS**
+
+
+
+
+-E: Edit 
+
+
+
+		Compulsory flag:
+	
+
+		-I ID of the reminder
+
+
+
+		Optional flags:
+	
+
+
+		-t Time (24 hour format eg. 15:36)
+	
+
+
+		-r Reminder (Use \"\" to enter the reminder eg. \" Complete ISS Assignment \")
+
+	
+
+		Eg: ./reminder.sh -I 1 -r "Make Final Changes" -E
+
+
+	
+							**USE -E FLAG AFTER THE TAGS**
+
+
+
+
+-D: Delete
+	
+
+		Compulsory flag:
+	
+
+
+		-I ID of the reminder
+
+	
+
+		Eg: ./reminder./sh -I 1 -D
+
+
+
+								**USE -D FLAG AFTER THE ID TAG**
+
+
+
+-L: List
+	
+
+		Displays reminders in a table sorted based on
+		
+
+
+		Optional flags that sort on the basis of:
+	
+
+		-d Date
+	
+
+		-s Reminder string
+
+
+		No flag: Time
+
+	
+		Eg:	
+
+			./reminder.sh -L -d
+
+
+			./reminder.sh -L -s
+
+
+			./reminder.sh -L
+
+
+
+
+-h: Help
+
+			
