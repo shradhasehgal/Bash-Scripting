@@ -108,7 +108,3 @@ Categorizes movies into 4 sets - Bad, Average, Good, and Awesome based on their 
 * Filters movies based on the ratings and create that movie's file in one of the 4 folders. 
 <br> **Note**: `movies_rating_file` has to be of the format: `movie_name: rating` 
 * Error handling for incorrect number / types of arguments. 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
