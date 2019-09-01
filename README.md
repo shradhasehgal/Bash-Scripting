@@ -1,4 +1,4 @@
-## Multi-purpose Bash Scripts 
+# Multi-purpose Bash Scripts 
 
 A collection of multi-purpose CLI bash scripts.
 
@@ -8,7 +8,7 @@ A bash script to maintain a list of your favourite songs (stored as CSV file). I
 
 ### Run
 
-	./songs.sh -h 
+`./songs.sh -h` 
 `-h` flag opens the man page which displays how to use all the features
 
 ### Features
