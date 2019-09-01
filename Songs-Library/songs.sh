@@ -1,3 +1,5 @@
+#!/bin/bash
+
 delete()
 {
     sed -i "/^$Id/d" songs.csv
@@ -23,7 +25,6 @@ views()
   rm new.txt
   echo
 }
-
 
 while getopts "s:a:l:g:i:hAEDLV" opt; do
   case "$opt" in
