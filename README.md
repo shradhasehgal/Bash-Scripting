@@ -8,7 +8,7 @@ A bash script to maintain a list of your favourite songs (stored as CSV file). I
 
 ### Run
 
-`./songs.sh -h` 
+`./songs.sh -h` <br>
 `-h` flag opens the man page which displays how to use all the features
 
 ### Features
@@ -34,11 +34,14 @@ A bash script to maintain a list of your favourite songs (stored as CSV file). I
 
 
 
+
+
+
 ## Search Engine
 Counts the number of times a given string occurs in the content of a web page.
 	
 ### Run
-	./searching.sh word URL
+`./searching.sh word URL`
 
 ### Features
 
@@ -47,12 +50,14 @@ Counts the number of times a given string occurs in the content of a web page.
 * Alerts if number of arguments is incorrect or if arguments are reversed
 
 
+
+
 ## Timer
 A script to increase productivity by breaking down work into intervals, followed by small breaks.
 
 ### Run
 	
-	 ./timer.sh number_of_cycles
+`./timer.sh number_of_cycles`
 
 ### Features
 
