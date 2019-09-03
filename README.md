@@ -100,7 +100,7 @@ Categorizes movies into 4 sets - Bad, Average, Good, and Awesome based on their 
 
 ### Run
 
-	./2018101071.sh <movies_rating_file_path> <all_movies_folder_path>
+	./movies.sh <movies_rating_file_path> <all_movies_folder_path>
 
 ### Features
 
